@@ -1,0 +1,2940 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <head>
+    <title>PCRAFI II SURVEY FORM - Data Collection</title>
+    <model odk:xforms-version="1.0.0">
+      <instance>
+        <aicRLmhkeZNyNYXLjhxDhH id="aicRLmhkeZNyNYXLjhxDhH">
+          <start/>
+          <end/>
+          <today/>
+          <username/>
+          <simserial/>
+          <subscriberid/>
+          <deviceid/>
+          <phonenumber/>
+          <Choose_Survey_Form/>
+          <COUNTRY>Cook Islands</COUNTRY>
+          <group_jk7fc12>
+            <Collect_GPS_point/>
+            <build_p1/>
+            <build_p2/>
+            <build_p3/>
+            <build_p4/>
+            <Usage_Occupancy_Class/>
+            <Subuse/>
+            <Foundation_Type/>
+            <Foundation_bracing/>
+            <Foundation_Condition/>
+            <Min_Floor_Height_above_ground/>
+            <Max_Floor_Height_above_ground/>
+            <Building_Structure/>
+            <Wall_Material/>
+            <Wall_Condition/>
+            <Window_Type/>
+            <Window_Protection/>
+            <Roof_Shape/>
+            <Roof_material/>
+            <Roof_Pitch/>
+            <Roof_Condition/>
+            <Building_Age/>
+            <Number_of_Storeys/>
+            <Under_storey_level/>
+            <Utilities/>
+            <group_zh95a72>
+              <Vehicle/>
+              <Telecommunication_Access/>
+              <Employment_Status/>
+              <Disability/>
+              <Number_of_people_in_the_Household/>
+              <Number_of_Males/>
+              <Number_of_Female/>
+              <Place_of_Residence/>
+              <Language/>
+            </group_zh95a72>
+          </group_jk7fc12>
+          <group_af6fz79>
+            <Location/>
+            <water_p1/>
+            <water_p2/>
+            <water_p3/>
+            <water_p4/>
+            <Asset_type/>
+            <Source_Type/>
+            <Condition/>
+            <Water_Network/>
+            <Asset_Ownership/>
+            <Asset_Material/>
+            <Covered/>
+            <Treated/>
+          </group_af6fz79>
+          <group_fc1nv27>
+            <Location_001/>
+            <Photo_1_of_Electrical_Asset/>
+            <Photo_2_of_Electrical_Asset/>
+            <Photo_3_of_Electrical_Asset/>
+            <Photo_4_of_Electrical_Asset/>
+            <Asset_Type_001/>
+            <Source/>
+            <Material/>
+            <Transformer_type/>
+            <Ownership/>
+          </group_fc1nv27>
+          <group_lu0po14>
+            <Collect_GPS_Location/>
+            <Photo_1_of_Fuel_Asset/>
+            <Photo_2_of_Fuel_Asset/>
+            <Photo_3_of_Fuel_Asset/>
+            <Photo_4_of_Fuel_Asset/>
+            <Fuel_Type/>
+            <Fuel_Asset_Type/>
+            <Tank_Material/>
+            <Storage_Capacity/>
+            <Storage_Type/>
+            <Fuel_Service_Provider/>
+            <Tenure/>
+            <Condition_001/>
+          </group_lu0po14>
+          <group_su5mf72>
+            <Collect_GPS_Location_001/>
+            <Photo_1_of_Telecommunication_Asset/>
+            <Photo_2_of_Telecommunication_Asset/>
+            <Photo_3_of_Telecommunication_Asset/>
+            <Photo_4_of_Telecommunication_Asset/>
+            <Asset_Condition/>
+            <Asset_Type_002/>
+            <Subuse_001/>
+            <Tower_Height/>
+            <Tower_Construction_Material/>
+            <Tower_Use/>
+            <Subtype/>
+            <Satellite_dishes_attached/>
+            <Sirens_attached/>
+            <Antenna_attached/>
+          </group_su5mf72>
+          <group_vq07d27>
+            <Collect_GPS_Location_002/>
+            <Photo_1_of_Bridge_Asset/>
+            <Photo_2_of_Bridge_Asset/>
+            <Photo_3_of_Bridge_Asset/>
+            <Photo_4_of_Bridge_Asset/>
+            <Bridge_Tenure/>
+            <Bridge_Type/>
+            <Length/>
+            <Width/>
+            <Min_Height_of_Deck_to_water/>
+            <Max_Height_of_Deck_to_water/>
+            <Piles/>
+            <Wingwall/>
+            <Abutment_material/>
+            <Super_structure_Condition/>
+            <Superstructure_materials/>
+            <Deck_Material/>
+            <Deck_Condition/>
+          </group_vq07d27>
+          <group_dv0bs04>
+            <Collect_GPS_Location_003/>
+            <Photo_1_of_Port_Asset/>
+            <Photo_2_of_Port_Asset/>
+            <Photo_3_of_Port_Asset/>
+            <Photo_4_of_Port_Asset/>
+            <Asset_Type_003/>
+            <Port_Use/>
+            <Types_of_Vessel/>
+            <Number_of_Tug_Boats/>
+            <Condition_of_port/>
+            <Tenure_001/>
+            <Length_of_birth/>
+            <Width_of_Apron/>
+            <Construction_material/>
+            <Decking/>
+            <Port_Vessel_Capacity/>
+            <Port_storage_capacity/>
+            <Seawall_Type/>
+            <Seawall_length/>
+            <Replacement_Cost/>
+          </group_dv0bs04>
+          <group_rd1la28>
+            <group_qj42t92>
+              <Collect_GPS_Location_004/>
+              <Photo_1_of_Airport_Airstrip/>
+              <Photo_2_of_Airport_Airstrip/>
+              <Photo_3_of_Airport_Airstrip/>
+              <Photo_4_of_Airport_Airstrip/>
+              <Name_of_Airport_Airstrip/>
+              <Use/>
+              <Navigation_light_system/>
+              <Security_fence/>
+            </group_qj42t92>
+            <group_dg5jq98>
+              <Length_of_runaway/>
+              <Photo_1_of_Runway/>
+              <Photo_2_of_Runway/>
+              <Photo_3_of_Runway/>
+              <Photo_4_of_Runway/>
+              <Averaged_width_of_runway/>
+              <Surface/>
+            </group_dg5jq98>
+            <group_dk1cn75>
+              <Length_of_taxiway/>
+              <Photo_1_of_Taxiway/>
+              <Photo_2_of_Taxiway/>
+              <Photo_3_of_Taxiway/>
+              <Photo_4_of_Taxiway/>
+              <Averaged_width_of_taxiway/>
+              <Surface_001/>
+              <group_xt9is17>
+                <Area/>
+                <Photo_1_of_Apron/>
+                <Photo_2_of_Apron/>
+                <Photo_3_of_Apron/>
+                <Photo_4_of_Apron/>
+                <Surface_002/>
+              </group_xt9is17>
+            </group_dk1cn75>
+          </group_rd1la28>
+          <group_db2pz60>
+            <Collect_GPS_Location_005/>
+            <Photo_1_of_Road/>
+            <Photo_2_of_Road/>
+            <Photo_3_of_Road/>
+            <Photo_4_of_Road/>
+            <Road_class/>
+            <Surface_Seal/>
+            <Condition_002/>
+            <Location_of_Road/>
+            <Evacuation_road/>
+            <Number_of_lanes/>
+            <Year_Constructed/>
+            <Footpath_presence/>
+            <Length_001/>
+            <Width_001/>
+            <Traffic_Volume/>
+            <Terrain/>
+          </group_db2pz60>
+          <group_gh1my18>
+            <Collect_GPS_Location_006/>
+            <Photo_1_of_Agriculture/>
+            <Photo_2_of_Agriculture/>
+            <Photo_3_of_Agriculture/>
+            <Photo_4_of_Agriculture/>
+            <Crop_type/>
+            <Land_Tenure/>
+            <Crop_area/>
+            <Planting_method/>
+            <Farmers_classification/>
+            <Number_of_farm_holdings/>
+            <Fertilizer/>
+            <Farming_tools/>
+            <Market_value/>
+          </group_gh1my18>
+          <group_gw2bx34>
+            <Collect_GPS_Location_007/>
+            <Photo_1_of_Livestock/>
+            <Photo_2_of_Livestock/>
+            <Photo_3_of_Livestock/>
+            <Photo_4_of_Livestock/>
+            <Land_Tenure_001/>
+            <Number_of_Livestocks/>
+            <Livestock_growth_stage/>
+            <Livestock_feed/>
+            <Method_of_farming/>
+            <Farmer_classification/>
+            <Fence_type/>
+            <Fence_length/>
+            <Farm_area_size/>
+            <Sheds/>
+            <Tools/>
+          </group_gw2bx34>
+          <meta>
+            <audit/>
+            <instanceID/>
+          </meta>
+        </aicRLmhkeZNyNYXLjhxDhH>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/aicRLmhkeZNyNYXLjhxDhH/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/aicRLmhkeZNyNYXLjhxDhH/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/aicRLmhkeZNyNYXLjhxDhH/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="username" nodeset="/aicRLmhkeZNyNYXLjhxDhH/username" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/aicRLmhkeZNyNYXLjhxDhH/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/aicRLmhkeZNyNYXLjhxDhH/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/aicRLmhkeZNyNYXLjhxDhH/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/aicRLmhkeZNyNYXLjhxDhH/phonenumber" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form" required="true()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/COUNTRY" required="true()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'buildings'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Collect_GPS_point" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'buildings'" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p1" orx:max-pixels="1024" required="true()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p2" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p3" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p4" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Usage_Occupancy_Class" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Subuse" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Foundation_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Foundation_bracing" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Foundation_Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Min_Floor_Height_above_ground" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Max_Floor_Height_above_ground" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Building_Structure" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Wall_Material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Wall_Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Window_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Window_Protection" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_Shape" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_Pitch" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Building_Age" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Number_of_Storeys" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Under_storey_level" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Utilities" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'buildings' and  /aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Usage_Occupancy_Class  = 'residential' and  /aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Subuse  = 'residential'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Vehicle" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Telecommunication_Access" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Employment_Status" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Disability" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Number_of_people_in_the_Household" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Number_of_Males" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Number_of_Female" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Place_of_Residence" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Language" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'utilities___water'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Location" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'utilities___water'" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p1" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p2" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p3" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p4" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Asset_type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Source_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Water_Network" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Asset_Ownership" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Asset_Material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Covered" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Treated" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'utilities___electricity'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Location_001" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_1_of_Electrical_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_2_of_Electrical_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_3_of_Electrical_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_4_of_Electrical_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Asset_Type_001" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Source" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Transformer_type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Ownership" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_fuel'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Collect_GPS_Location" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_1_of_Fuel_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_2_of_Fuel_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_3_of_Fuel_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_4_of_Fuel_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Fuel_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Fuel_Asset_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Tank_Material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Storage_Capacity" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Storage_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Fuel_Service_Provider" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Tenure" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Condition_001" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_tel'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Collect_GPS_Location_001" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_1_of_Telecommunication_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_2_of_Telecommunication_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_3_of_Telecommunication_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_4_of_Telecommunication_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Asset_Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Asset_Type_002" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Subuse_001" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Tower_Height" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Tower_Construction_Material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Tower_Use" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Subtype" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Satellite_dishes_attached" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Sirens_attached" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Antenna_attached" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_bridge'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Collect_GPS_Location_002" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_1_of_Bridge_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_2_of_Bridge_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_3_of_Bridge_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_4_of_Bridge_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Bridge_Tenure" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Bridge_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Length" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Width" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Min_Height_of_Deck_to_water" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Max_Height_of_Deck_to_water" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Piles" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Wingwall" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Abutment_material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Super_structure_Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Superstructure_materials" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Deck_Material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Deck_Condition" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_port'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Collect_GPS_Location_003" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_1_of_Port_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_2_of_Port_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_3_of_Port_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_4_of_Port_Asset" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Asset_Type_003" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Port_Use" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Types_of_Vessel" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Number_of_Tug_Boats" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Condition_of_port" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Tenure_001" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Length_of_birth" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Width_of_Apron" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Construction_material" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Decking" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Port_Vessel_Capacity" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Port_storage_capacity" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Seawall_Type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Seawall_length" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Replacement_Cost" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_airport'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_airport'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Collect_GPS_Location_004" required="false()" type="geotrace"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_1_of_Airport_Airstrip" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_2_of_Airport_Airstrip" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_3_of_Airport_Airstrip" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_4_of_Airport_Airstrip" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Name_of_Airport_Airstrip" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Use" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Navigation_light_system" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Security_fence" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Length_of_runaway" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_1_of_Runway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_2_of_Runway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_3_of_Runway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_4_of_Runway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Averaged_width_of_runway" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Surface" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Length_of_taxiway" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_1_of_Taxiway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_2_of_Taxiway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_3_of_Taxiway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_4_of_Taxiway" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Averaged_width_of_taxiway" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Surface_001" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Area" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_1_of_Apron" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_2_of_Apron" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_3_of_Apron" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_4_of_Apron" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Surface_002" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'infra_roads'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Collect_GPS_Location_005" required="false()" type="geotrace"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_1_of_Road" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_2_of_Road" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_3_of_Road" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_4_of_Road" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Road_class" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Surface_Seal" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Condition_002" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Location_of_Road" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Evacuation_road" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Number_of_lanes" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Year_Constructed" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Footpath_presence" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Length_001" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Width_001" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Traffic_Volume" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Terrain" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'crops___agriculture'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Collect_GPS_Location_006" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_1_of_Agriculture" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_2_of_Agriculture" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_3_of_Agriculture" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_4_of_Agriculture" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Crop_type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Land_Tenure" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Crop_area" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Planting_method" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Farmers_classification" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Number_of_farm_holdings" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Fertilizer" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Farming_tools" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Market_value" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34" relevant=" /aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form  = 'livestock'" required="false()"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Collect_GPS_Location_007" required="false()" type="geopoint"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_1_of_Livestock" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_2_of_Livestock" orx:max-pixels="1024" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_3_of_Livestock" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_4_of_Livestock" required="false()" type="binary"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Land_Tenure_001" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Number_of_Livestocks" required="false()" type="int"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Livestock_growth_stage" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Livestock_feed" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Method_of_farming" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Farmer_classification" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Fence_type" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Fence_length" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Farm_area_size" required="false()" type="decimal"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Sheds" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Tools" required="false()" type="string"/>
+      <bind nodeset="/aicRLmhkeZNyNYXLjhxDhH/meta/audit" type="binary"/>
+      <bind jr:preload="uid" nodeset="/aicRLmhkeZNyNYXLjhxDhH/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </head>
+  <body class="pages">
+    <select appearance="horizontal" ref="/aicRLmhkeZNyNYXLjhxDhH/Choose_Survey_Form">
+      <label>PLEASE CHOOSE SURVEY FORM</label>
+      <item>
+        <label>Buildings</label>
+        <value>buildings</value>
+      </item>
+      <item>
+        <label>Infrastructure - Airport/Airstrip</label>
+        <value>infra_airport</value>
+      </item>
+      <item>
+        <label>Infrastructure - Bridge</label>
+        <value>infra_bridge</value>
+      </item>
+      <item>
+        <label>Utilities - Electricity</label>
+        <value>utilities___electricity</value>
+      </item>
+      <item>
+        <label>Infrastructure - Fuel</label>
+        <value>infra_fuel</value>
+      </item>
+      <item>
+        <label>Infrastructure - Port</label>
+        <value>infra_port</value>
+      </item>
+      <item>
+        <label>Infrastructure - Roads</label>
+        <value>infra_roads</value>
+      </item>
+      <item>
+        <label>Infrastructure - Telecommunication</label>
+        <value>infra_tel</value>
+      </item>
+      <item>
+        <label>Utilities - Water</label>
+        <value>utilities___water</value>
+      </item>
+      <item>
+        <label>Crops - Agriculture</label>
+        <value>crops___agriculture</value>
+      </item>
+      <item>
+        <label>Livestock</label>
+        <value>livestock</value>
+      </item>
+    </select>
+    <select ref="/aicRLmhkeZNyNYXLjhxDhH/COUNTRY">
+      <label>COUNTRY</label>
+      <hint>Select the country the survey is being held in</hint>
+      <item>
+        <label>Cook Islands</label>
+        <value>cook_islands</value>
+      </item>
+      <item>
+        <label>Fiji</label>
+        <value>fiji</value>
+      </item>
+      <item>
+        <label>Kiribati</label>
+        <value>kiribati</value>
+      </item>
+      <item>
+        <label>Papua New Guinea</label>
+        <value>papua_new_guinea</value>
+      </item>
+      <item>
+        <label>Tonga</label>
+        <value>tonga</value>
+      </item>
+      <item>
+        <label>Tuvalu</label>
+        <value>tuvalu</value>
+      </item>
+      <item>
+        <label>Solomon Islands</label>
+        <value>solomon_islands</value>
+      </item>
+      <item>
+        <label>Vanuatu</label>
+        <value>vanuatu</value>
+      </item>
+      <item>
+        <label>Samoa</label>
+        <value>samoa</value>
+      </item>
+    </select>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12">
+      <label>Buildings</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Collect_GPS_point">
+        <label>Collect GPS point</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device). Stand not too close to the building. Your view of the Sky above must be clear.</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p1">
+        <label>Photo of Building 1</label>
+        <hint>Take a picture from the corner of the building so that both sides of the Walls and Roof (including guttering if any) are covered</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p2">
+        <label>Photo of Building 2</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p3">
+        <label>Photo of Building 3</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/build_p4">
+        <label>Photo of Building 4</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Usage_Occupancy_Class">
+        <label>Usage/Occupancy Class</label>
+        <hint>Refers to the purpose for which the building is currently being used for.</hint>
+        <item>
+          <label>Residential</label>
+          <value>residential</value>
+        </item>
+        <item>
+          <label>Commercial</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Industrial</label>
+          <value>industrial</value>
+        </item>
+        <item>
+          <label>Public</label>
+          <value>public</value>
+        </item>
+        <item>
+          <label>Educational</label>
+          <value>educational</value>
+        </item>
+        <item>
+          <label>Institutional</label>
+          <value>institutional</value>
+        </item>
+        <item>
+          <label>Evacuation center</label>
+          <value>evacuation_cen</value>
+        </item>
+        <item>
+          <label>Out building</label>
+          <value>outhouse</value>
+        </item>
+        <item>
+          <label>Infrastructure</label>
+          <value>infrastructure_1</value>
+        </item>
+        <item>
+          <label>other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Subuse">
+        <label>Subuse</label>
+        <hint>Some buildings can have dual use. Eg: Some buildings can have a supermarket and a coffee shop within the same building</hint>
+        <item>
+          <label>Residential</label>
+          <value>residential</value>
+        </item>
+        <item>
+          <label>Commercial</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Industrial</label>
+          <value>industrial</value>
+        </item>
+        <item>
+          <label>Public</label>
+          <value>public</value>
+        </item>
+        <item>
+          <label>Educational</label>
+          <value>educational</value>
+        </item>
+        <item>
+          <label>Institutional</label>
+          <value>institutional</value>
+        </item>
+        <item>
+          <label>Storage</label>
+          <value>storage</value>
+        </item>
+        <item>
+          <label>Evacuation Center</label>
+          <value>evacuation_cen</value>
+        </item>
+        <item>
+          <label>None (only one use type)</label>
+          <value>none__only_one_use_type</value>
+        </item>
+        <item>
+          <label>Other (there's another use, unclear classification)</label>
+          <value>other__there_s_another_use__unclear_clas</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Foundation_Type">
+        <label>Foundation Type</label>
+        <hint>The foundation, usually below the ground, is the part of the building that transfers and distributes the weight of the building onto the ground.</hint>
+        <item>
+          <label>Concrete slab</label>
+          <value>option_1</value>
+        </item>
+        <item>
+          <label>Wooden/concrete pile</label>
+          <value>option_2</value>
+        </item>
+        <item>
+          <label>Steel pipe</label>
+          <value>steel_pipe</value>
+        </item>
+        <item>
+          <label>Wooden/steel pole</label>
+          <value>wooden_steel_p</value>
+        </item>
+        <item>
+          <label>Concrete columns</label>
+          <value>concrete_colum</value>
+        </item>
+        <item>
+          <label>Load bearing wall</label>
+          <value>load_bearing</value>
+        </item>
+        <item>
+          <label>Steel Column</label>
+          <value>steel_column</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>unknown</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Foundation_bracing">
+        <label>Foundation Bracing</label>
+        <hint>An inclined piece of material applied to the foundation to strengthen the structure.</hint>
+        <item>
+          <label>Timber walls</label>
+          <value>timber_walls</value>
+        </item>
+        <item>
+          <label>Concrete wall</label>
+          <value>concrete_wall</value>
+        </item>
+        <item>
+          <label>Masonry</label>
+          <value>masonry</value>
+        </item>
+        <item>
+          <label>Partial bracing</label>
+          <value>partial_bracin</value>
+        </item>
+        <item>
+          <label>Other (steel sheet, timber struts)</label>
+          <value>other__steel_sheet__timber_struts</value>
+        </item>
+        <item>
+          <label>None</label>
+          <value>none</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>unknown</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Foundation_Condition">
+        <label>Foundation Condition</label>
+        <hint>Refers to the condition of the foundation.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no corrosion or holes or wear and tear. There is no cracked or damage on the foundation structure. The foundation material has no peeling and no presence of green algae or moss (especially if the foundation is made of wood and is right above ground).</label>
+          <value>under_construc</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the foundation structure has no damage, no defects, no deformation, no deterioration, and no impairment.</label>
+          <value>inhabitable</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: The condition of the foundation at this stage can still be maintained through regular maintenance such as painting, algae can be removed. Repair can be done to the foundation materials.</label>
+          <value>none</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Foundation has moderate damage. There is sign of moderate impairment. However, this condition can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged. </label>
+          <value>good_condition</value>
+        </item>
+        <item>
+          <label>(1) Very poor condition: Foundation structure has major damage, defects, deformation, deterioration, and or serious impairment in condition. It is not possible to restore the foundation.</label>
+          <value>partially_good_condition</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Min_Floor_Height_above_ground">
+        <label>Min Floor Height above ground</label>
+        <hint>Minimum distance from ground level to the floor of the first living level. Recorded in meters.</hint>
+        <item>
+          <label>&lt;1.0m (25cm increment)</label>
+          <value>_1_0m__25cm_in</value>
+        </item>
+        <item>
+          <label>&gt;1.0m (50cm increment)</label>
+          <value>_1_0m__50cm_in</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Max_Floor_Height_above_ground">
+        <label>Max Floor Height above ground</label>
+        <hint>Maximum distance from ground level to the floor of the first living level. Recorded in meters.</hint>
+        <item>
+          <label>&lt;1.0m (25cm increment)</label>
+          <value>_1_0m__25cm_in</value>
+        </item>
+        <item>
+          <label>&gt;1.0m (50cm increment)</label>
+          <value>_1_0m__50cm_in</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Building_Structure">
+        <label>Building Structure</label>
+        <hint>The building structure above the foundation</hint>
+        <item>
+          <label>Timber frame</label>
+          <value>timber_frame</value>
+        </item>
+        <item>
+          <label>Wooden pole</label>
+          <value>wooden_pole</value>
+        </item>
+        <item>
+          <label>Concrete columns</label>
+          <value>concrete_colum</value>
+        </item>
+        <item>
+          <label>Steel column</label>
+          <value>steel_column</value>
+        </item>
+        <item>
+          <label>Load bearing wall</label>
+          <value>load_bearing_w</value>
+        </item>
+        <item>
+          <label>Tilt-up slab</label>
+          <value>tilt_up_slab</value>
+        </item>
+        <item>
+          <label>Unknown/other</label>
+          <value>unknown_other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Wall_Material">
+        <label>Wall Material</label>
+        <hint>Refers to main material used to construct walls of the buildings occupied levels.</hint>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Masonry</label>
+          <value>masonry</value>
+        </item>
+        <item>
+          <label>Metal Sheet</label>
+          <value>metal_sheet</value>
+        </item>
+        <item>
+          <label>Fibre Cement Sheets</label>
+          <value>fibre_cement_s</value>
+        </item>
+        <item>
+          <label>Unknown Sheet</label>
+          <value>unknown_sheet</value>
+        </item>
+        <item>
+          <label>Fibre Cement Board</label>
+          <value>fibre_cement_b</value>
+        </item>
+        <item>
+          <label>Timber Board</label>
+          <value>timber_board</value>
+        </item>
+        <item>
+          <label>Unknown board</label>
+          <value>unknown_board</value>
+        </item>
+        <item>
+          <label>Traditional Material</label>
+          <value>traditional_ma</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+        <item>
+          <label>None (No walls)</label>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Wall_Condition">
+        <label>Wall Condition</label>
+        <hint>Refers to the condition of the wall.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no corrosion or holes or wear and tear. There is no cracked, damaged, or missing tile. There are no dark stains on the wall, no peeling, no crack and no presence of green algae or moss building moss or leaf or plant material (especially if there are trees around the house). No blistering or buckling effect seen on the wall surface. </label>
+          <value>major_cracks</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the roof has no damage, no defects, no deformation, no deterioration, and no impairment.</label>
+          <value>major_rot</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: Wall has minor to moderate damage, defects, deformation, deterioration, and or impairment. The condition of the wall at this stage can still be maintained through regular maintenance such as clean gutters, remove plant material, prune tree branches around the wall, etc.</label>
+          <value>minor_rot</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Wall has moderate damage, defects, deformation, deterioration, and or impairment. However, this condition can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged, degraded, deteriorated part of the wall. Wall is recoverable. </label>
+          <value>good_condition____no_sign_of_rot</value>
+        </item>
+        <item>
+          <label>(1) Very Poor condition: Wall has major damage, defects, deformation, deterioration, and or serious impairment in condition. It is not possible to restore the wall through some economically efficient rehabilitation/refurbishment. Wall needs to be replaced with new wall. </label>
+          <value>partially_good_condition</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Window_Type">
+        <label>Window Type</label>
+        <hint>Refers to diverse types of opening on the walls of the building.</hint>
+        <item>
+          <label>Awning windows</label>
+          <value>awning_windows</value>
+        </item>
+        <item>
+          <label>Louvres</label>
+          <value>louvres</value>
+        </item>
+        <item>
+          <label>Bay/Rectangle Windows</label>
+          <value>bay_rectangle_</value>
+        </item>
+        <item>
+          <label>Bow (outward projected) Windows</label>
+          <value>bow__outward_p</value>
+        </item>
+        <item>
+          <label>Others</label>
+          <value>others</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Window_Protection">
+        <label>Window Protection</label>
+        <hint>Whether windows have protection which can include shutters or brackets/hinges for shutters on them for protection against wind damage, exterior burglar bars, partial protection or none at all.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_Shape">
+        <label>Roof Shape</label>
+        <hint>The shape of the roof</hint>
+        <item>
+          <label>Mono-pitch</label>
+          <value>mono_pitch</value>
+        </item>
+        <item>
+          <label>Arch</label>
+          <value>arch</value>
+        </item>
+        <item>
+          <label>Gable</label>
+          <value>gable</value>
+        </item>
+        <item>
+          <label>Hip</label>
+          <value>hip</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_material">
+        <label>Roof Material</label>
+        <hint>Material utilised to construct the roof</hint>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Metal Sheet</label>
+          <value>metal_sheet</value>
+        </item>
+        <item>
+          <label>Fibre-cement Sheets</label>
+          <value>fibre_cement_s</value>
+        </item>
+        <item>
+          <label>Unknown Sheet</label>
+          <value>unknown_sheet</value>
+        </item>
+        <item>
+          <label>Metal Tiles</label>
+          <value>metal_tiles</value>
+        </item>
+        <item>
+          <label>Heavy Tiles</label>
+          <value>heavy_tiles</value>
+        </item>
+        <item>
+          <label>Wooden Shakes</label>
+          <value>wooden_shakes</value>
+        </item>
+        <item>
+          <label>Traditional materials</label>
+          <value>traditional_ma</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_Pitch">
+        <label>Roof Pitch</label>
+        <hint>The steepness at which the roof is sloped.</hint>
+        <item>
+          <label>Flat</label>
+          <value>flat</value>
+        </item>
+        <item>
+          <label>Low</label>
+          <value>low</value>
+        </item>
+        <item>
+          <label>Moderate</label>
+          <value>moderate</value>
+        </item>
+        <item>
+          <label>Steep</label>
+          <value>steep</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Roof_Condition">
+        <label>Roof Condition</label>
+        <hint>Refers to the condition of the roof.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no corrosion or holes or wear and tear. There is no cracked, damaged, or missing tile. There are no dark stains on the roof, no peeling, no crack and no presence of green algae or moss building moss or leaf or plant material (especially if there are trees around the house). No blistering or buckling effect seen on the roof surface. </label>
+          <value>good_condtion</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the roof has no damage, no defects, no deformation, no deterioration, and no impairment.</label>
+          <value>partially_good</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: Roof has minor to moderate damage, defects, deformation, deterioration, and or impairment. The condition of the roof at this stage can still be maintained through regular maintenance such as clean gutters, remove plant material, prune tree branches around the roof, etc. </label>
+          <value>bad_condition</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Roof has moderate damage, defects, deformation, deterioration, and or impairment. However, this condition can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged, degraded, deteriorated part of the roof. Roof is recoverable. </label>
+          <value>_2_poor_condition__roof_has_moderate_dam</value>
+        </item>
+        <item>
+          <label>(1) Very poor condition: Roof has major damage, defects, deformation, deterioration, and or serious impairment in condition. It is not possible to restore the roof through some economically efficient rehabilitation/refurbishment. Roof needs to be replaced with new roof.</label>
+          <value>_1_very_poor_condition__roof_has_major_d</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Building_Age">
+        <label>Building Year</label>
+        <hint>The length of time the building has been in existence by surveyor's observation upon visual interpretation.</hint>
+        <item>
+          <label>New (0-5 yrs)</label>
+          <value>new__0_5_yrs</value>
+        </item>
+        <item>
+          <label>Medium (5-20yrs)</label>
+          <value>medium__5_20yr</value>
+        </item>
+        <item>
+          <label>Old (&gt;20yrs)</label>
+          <value>old__20yrs</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>unknown</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Number_of_Storeys">
+        <label>Number of Storeys</label>
+        <hint>The number of occupied storeys/levels.</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Under_storey_level">
+        <label>Under Storey level</label>
+        <hint>Presence of any basement level below ground level.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/Utilities">
+        <label>Utilities</label>
+        <hint>Evidence of utilities connected to the building example water, electricity, telecommunication, solar.</hint>
+        <item>
+          <label>Water</label>
+          <value>water</value>
+        </item>
+        <item>
+          <label>Electricity</label>
+          <value>electricity</value>
+        </item>
+        <item>
+          <label>Telecommunication</label>
+          <value>telecommunication</value>
+        </item>
+        <item>
+          <label>Electricity - Solar</label>
+          <value>electricity___solar</value>
+        </item>
+        <item>
+          <label>Water Tank</label>
+          <value>water_tank</value>
+        </item>
+      </select>
+      <group ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72">
+        <label>Population</label>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Vehicle">
+          <label>Vehicle</label>
+          <hint>Refers to a thing used for transporting people, or goods on land.</hint>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Telecommunication_Access">
+          <label>Telecommunication Access</label>
+          <hint>The exchange of information over significant distances by electronic means.</hint>
+          <item>
+            <label>Cellphone</label>
+            <value>cellphone</value>
+          </item>
+          <item>
+            <label>Mobile</label>
+            <value>mobile</value>
+          </item>
+          <item>
+            <label>VHF radio</label>
+            <value>vhf_radio</value>
+          </item>
+          <item>
+            <label>Internet connectivity</label>
+            <value>internet_connectivity</value>
+          </item>
+          <item>
+            <label>Radio (AM/FM)</label>
+            <value>radio__am_fm</value>
+          </item>
+        </select>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Employment_Status">
+          <label>Employment Status</label>
+          <hint>Head of household employment status</hint>
+        </input>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Disability">
+          <label>Disability</label>
+          <hint>Type of disability of people living in the Dwelling</hint>
+          <item>
+            <label>Mental disability</label>
+            <value>mental_disability</value>
+          </item>
+          <item>
+            <label>Sight disability</label>
+            <value>sight_disability</value>
+          </item>
+          <item>
+            <label>Hearing disability</label>
+            <value>hearing_disability</value>
+          </item>
+          <item>
+            <label>Walking disability</label>
+            <value>walking_disability</value>
+          </item>
+        </select>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Number_of_people_in_the_Household">
+          <label>Number of people in the Household</label>
+          <hint>Number of people livibg in the building</hint>
+        </input>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Number_of_Males">
+          <label>Number of Males</label>
+          <hint>The male count in a population.</hint>
+        </input>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Number_of_Female">
+          <label>Number of Female</label>
+          <hint>The female count in a population.</hint>
+        </input>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Place_of_Residence">
+          <label>Place of Residence</label>
+          <hint>Refers to the place whereby a person lives in. This may be a house, an apartment, retirement home, an assisted living facility, and housing for elderly.</hint>
+        </input>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_jk7fc12/group_zh95a72/Language">
+          <label>Language</label>
+          <hint>National language</hint>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79">
+      <label>Utilities - Water</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Location">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p1">
+        <label>Photo 1 of Water Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p2">
+        <label>Photo 2 of Water Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p3">
+        <label>Photo 3 of Water Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/water_p4">
+        <label>Photo 4 of Water Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Asset_type">
+        <label>Asset type</label>
+        <hint>Water asset type</hint>
+        <item>
+          <label>Water Tank</label>
+          <value>tank</value>
+        </item>
+        <item>
+          <label>Resevoir</label>
+          <value>resevoir</value>
+        </item>
+        <item>
+          <label>Desalination Plant</label>
+          <value>desal_plant</value>
+        </item>
+        <item>
+          <label>Pumping Station</label>
+          <value>pumping_station</value>
+        </item>
+        <item>
+          <label>Treatment Plant</label>
+          <value>treatment_plant</value>
+        </item>
+        <item>
+          <label>Dams</label>
+          <value>dams</value>
+        </item>
+        <item>
+          <label>Well</label>
+          <value>well</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Source_Type">
+        <label>Source Type</label>
+        <hint>Refers to the water source refers to the origin of the water.</hint>
+        <item>
+          <label>Surface Water</label>
+          <value>surface_water</value>
+        </item>
+        <item>
+          <label>Ground Water</label>
+          <value>ground_water</value>
+        </item>
+        <item>
+          <label>Sea Water</label>
+          <value>sea_water</value>
+        </item>
+        <item>
+          <label>Waste Water</label>
+          <value>waste_water</value>
+        </item>
+        <item>
+          <label>Rain Water</label>
+          <value>rain_water</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Condition">
+        <label>Condition</label>
+        <hint>Refers to the overall condition of the asset.</hint>
+        <item>
+          <label>(5) Excellent condition: Water asset has no corrosion, or holes or wear and tear. There are no cracked, damaged or missing pieces. There are no dark stains, no peeling, no cracks and no presence of green algae or moss growing on the material.</label>
+          <value>good_condition</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the water asset has no damage, no defects, no deformation, no deterioration, and no impairment. </label>
+          <value>partially_good_condition</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: Approximately, 50-80% of the water asset is in fair condition. Water asset has minor to moderate damage, defects, deformation, deterioration, and or impairment. The condition of the water asset can still be maintained through regular maintenance.  </label>
+          <value>bad_condition</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Approximately, 30-50% of the water asset is operable. Water asset has moderate damage, defects, deformation, deterioration, and or impairment. However, this condition can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged, degraded, deteriorated portion. Water asset is recoverable. </label>
+          <value>_2__poor_condition__approximately__30_50</value>
+        </item>
+        <item>
+          <label>(1) Very Poor condition: Water asset has major damage, defects, deformation, deterioration, and or serious impairment in condition. It is not possible to restore the water asset through some economically efficient rehabilitation/refurbishment. Water asset needs to be replaced. </label>
+          <value>_1__very_poor_condition__water_asset_has</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Water_Network">
+        <label>Water Network</label>
+        <hint>Refers to the presence of reticulation system within the area.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Asset_Ownership">
+        <label>Asset Ownership</label>
+        <hint>The ownership of the asset.</hint>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Government</label>
+          <value>government</value>
+        </item>
+        <item>
+          <label>State Owned Enterprise</label>
+          <value>state_owned_enterprise</value>
+        </item>
+        <item>
+          <label>Community Owned</label>
+          <value>community_owned</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Asset_Material">
+        <label>Asset Material</label>
+        <hint>The material used to construct the water asset.</hint>
+        <item>
+          <label>PVC</label>
+          <value>pvc</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Fibre Cement</label>
+          <value>fibre_cement</value>
+        </item>
+        <item>
+          <label>Earth/Natural</label>
+          <value>earth_natural</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Covered">
+        <label>Covered</label>
+        <hint>Cover on the Asset</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>NO</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_af6fz79/Treated">
+        <label>Treated</label>
+        <hint>The water is safe for consumption as it is treated by chemical, filtered or boiled to eliminate infectious bacteria, viruses and parasites.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27">
+      <label>Utilities - Electricity</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Location_001">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_1_of_Electrical_Asset">
+        <label>Photo 1 of Electrical Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_2_of_Electrical_Asset">
+        <label>Photo 2 of Electrical Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_3_of_Electrical_Asset">
+        <label>Photo 3 of Electrical Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Photo_4_of_Electrical_Asset">
+        <label>Photo 4 of Electrical Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Asset_Type_001">
+        <label>Asset Type</label>
+        <hint>The type of asset the field surveyor is collecting in the field.</hint>
+        <item>
+          <label>Power Plant</label>
+          <value>power_plant</value>
+        </item>
+        <item>
+          <label>Transformer</label>
+          <value>transformer</value>
+        </item>
+        <item>
+          <label>Tower</label>
+          <value>tower</value>
+        </item>
+        <item>
+          <label>Sub_Station</label>
+          <value>sub_station</value>
+        </item>
+        <item>
+          <label>Solar Farm</label>
+          <value>solar_farm</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Source">
+        <label>Source Type</label>
+        <hint>The energy source of the electricity.</hint>
+        <item>
+          <label>Renewable (Hydro, Solar, Wind, Biomass, Geothermal, OTEC)</label>
+          <value>renewable__hydro__solar__wind__biomass__</value>
+        </item>
+        <item>
+          <label>Non - renewable (Gas, Fuel, Coal, Wood)</label>
+          <value>non___renewable__gas__fuel__coal__wood</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Material">
+        <label>Asset Material</label>
+        <hint>The material used to construct the asset.</hint>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Steel and Concrete</label>
+          <value>steel_and_concrete</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Transformer_type">
+        <label>Transformer type</label>
+        <hint>The type of transformer mounting.</hint>
+        <item>
+          <label>Pad - mounted</label>
+          <value>pad</value>
+        </item>
+        <item>
+          <label>Pole - mounted</label>
+          <value>pole_mounted</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_fc1nv27/Ownership">
+        <label>Ownership</label>
+        <hint>The ownership of the asset.</hint>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Government</label>
+          <value>ipp_generation</value>
+        </item>
+        <item>
+          <label>State Owned Enterprise</label>
+          <value>state_owned_enterprise</value>
+        </item>
+        <item>
+          <label>IPP(Generation)</label>
+          <value>ipp_generation_1</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14">
+      <label>Infrastructure - Fuel</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Collect_GPS_Location">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_1_of_Fuel_Asset">
+        <label>Photo 1 of Fuel Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_2_of_Fuel_Asset">
+        <label>Photo 2 of Fuel Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_3_of_Fuel_Asset">
+        <label>Photo 3 of Fuel Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Photo_4_of_Fuel_Asset">
+        <label>Photo 4 of Fuel Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Fuel_Type">
+        <label>Fuel Type</label>
+        <hint>Refers to the different types of fuel.</hint>
+        <item>
+          <label>Wood</label>
+          <value>wood</value>
+        </item>
+        <item>
+          <label>Coal</label>
+          <value>coal</value>
+        </item>
+        <item>
+          <label>Diesel</label>
+          <value>diesel</value>
+        </item>
+        <item>
+          <label>Kerosene</label>
+          <value>kerosene</value>
+        </item>
+        <item>
+          <label>Gasoline</label>
+          <value>gasoline</value>
+        </item>
+        <item>
+          <label>Petrol</label>
+          <value>petrol</value>
+        </item>
+        <item>
+          <label>Ethanol</label>
+          <value>ethanol</value>
+        </item>
+        <item>
+          <label>Propane</label>
+          <value>propane</value>
+        </item>
+        <item>
+          <label>Methane</label>
+          <value>methane</value>
+        </item>
+        <item>
+          <label>LPG</label>
+          <value>lpg</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Fuel_Asset_Type">
+        <label>Fuel Asset Type</label>
+        <hint>Refers to the fuel asset type.</hint>
+        <item>
+          <label>Service station</label>
+          <value>service_station</value>
+        </item>
+        <item>
+          <label>Storage facility</label>
+          <value>storage_facility</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Tank_Material">
+        <label>Tank Material</label>
+        <hint>Refers to the tank materials.</hint>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Wooden</label>
+          <value>wooden</value>
+        </item>
+        <item>
+          <label>Metal_Iorn</label>
+          <value>metal_iorn</value>
+        </item>
+        <item>
+          <label>Cement</label>
+          <value>cement</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Storage_Capacity">
+        <label>Storage Capacity</label>
+        <hint>Volume in liters</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Storage_Type">
+        <label>Storage Type</label>
+        <hint>How is the fuel stored.</hint>
+        <item>
+          <label>Facility</label>
+          <value>facility</value>
+        </item>
+        <item>
+          <label>Building Yard</label>
+          <value>building_yard</value>
+        </item>
+        <item>
+          <label>Underground Tanks</label>
+          <value>underground_tanks</value>
+        </item>
+        <item>
+          <label>Silos</label>
+          <value>silos</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Fuel_Service_Provider">
+        <label>Fuel Service Provider</label>
+        <hint>Name of the Service Provider</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Tenure">
+        <label>Tenure</label>
+        <hint>Refers to the land status on which the fuel is located.</hint>
+        <item>
+          <label>Private</label>
+          <value>public</value>
+        </item>
+        <item>
+          <label>Public</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>State owned enterprise</label>
+          <value>state_owned_enterprise</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_lu0po14/Condition_001">
+        <label>Condition</label>
+        <hint>Refers to the condition of the asset type.</hint>
+        <item>
+          <label>(5) Excellent condition: The asset is in excellent condition. There is no presence of damage, defects, deformation, deterioration or impairment to the asset storage. The asset is a brand new and is fully used in services.</label>
+          <value>_5__excellent_condition__the_asset_is_in</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the fuel storage has no damage, no defects, no deformation, no deterioration, and no impairment. </label>
+          <value>_4__good_condition__80__or_more_of_the_f</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: Fuel has moderate damage, defects, deformation, deterioration, and or impairment. The fuel can still be maintained through maintenance such as solid reinforcement, and cleaning of fuel. </label>
+          <value>_3__fair_condition__fuel_has_moderate_da</value>
+        </item>
+        <item>
+          <label>(2) Poor condition:   More than half of the fuel is damaged causing disruption in services. The fuel tank has major cracks, defect, major rust and the asset can barely support itself. It can still be repaired through some economically efficient rehabilitation. The fuel may need to be replaced if it is not maintained. </label>
+          <value>_2__poor_condition__more_than_half_of_th</value>
+        </item>
+        <item>
+          <label>(1) Very poor condition: The asset has major damaged. The asset storage has completely damaged. There is a major explosion to the asset. The asset cannot be used. </label>
+          <value>_1__very_poor_condition__the_asset_has_m</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72">
+      <label>Infrastructure - Telecommunication</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Collect_GPS_Location_001">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_1_of_Telecommunication_Asset">
+        <label>Photo 1 of Telecommunication Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_2_of_Telecommunication_Asset">
+        <label>Photo 2 of Telecommunication Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_3_of_Telecommunication_Asset">
+        <label>Photo 3 of Telecommunication Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Photo_4_of_Telecommunication_Asset">
+        <label>Photo 4 of Telecommunication Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Asset_Condition">
+        <label>Asset Condition</label>
+        <hint>Refers to the condition of the asset.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no cracked or damage on the structure. The material that makes up the infrastructure has no peeling and no presence of green algae or moss.</label>
+          <value>poor</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the asset has no damage, no defects, no deformation, no deterioration, and no impairment.</label>
+          <value>good</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: The condition of the asset can still be maintained through regular maintenance. Repair can be done to the asset.</label>
+          <value>excellent</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Asset has moderate damage, defects, deformation, deterioration, and or impairment. The asset can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged.  </label>
+          <value>_2__poor_condition__asset_has_moderate_d</value>
+        </item>
+        <item>
+          <label>(1) Very condition: Asset has major damage, defects, deformation, deterioration, and or serious impairment. The asset cannot be restored.</label>
+          <value>_1__very_condition__asset_has_major_dama</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Asset_Type_002">
+        <label>Asset Type</label>
+        <hint>Refers to the structure type.</hint>
+        <item>
+          <label>Tower</label>
+          <value>tower</value>
+        </item>
+        <item>
+          <label>Poles</label>
+          <value>poles</value>
+        </item>
+        <item>
+          <label>Satellite dish</label>
+          <value>satellite_dish</value>
+        </item>
+        <item>
+          <label>Antenna</label>
+          <value>antenna</value>
+        </item>
+        <item>
+          <label>Mast</label>
+          <value>mast</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Subuse_001">
+        <label>Subuse</label>
+        <hint>Secondary use of the asset</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Tower_Height">
+        <label>Tower Height</label>
+        <hint>Refers to capturing the height of the asset in meters (refers mainly to towers and poles).</hint>
+        <item>
+          <label>5m &lt;</label>
+          <value>5m_</value>
+        </item>
+        <item>
+          <label>5m &gt; x &lt; 20m</label>
+          <value>5m___x___20m</value>
+        </item>
+        <item>
+          <label>20m &gt;</label>
+          <value>20m_</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Tower_Construction_Material">
+        <label>Tower Construction Material</label>
+        <hint>Material used to construct the structure.</hint>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Timber</label>
+          <value>timber</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Fiber glass</label>
+          <value>fiber_glass</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Tower_Use">
+        <label>Tower Use</label>
+        <hint>This refers to the primary use of the asset.</hint>
+        <item>
+          <label>Telecommunications</label>
+          <value>televommunications</value>
+        </item>
+        <item>
+          <label>Mobile networks</label>
+          <value>mobile_networks</value>
+        </item>
+        <item>
+          <label>VHF Radio</label>
+          <value>vhf_radio</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Subtype">
+        <label>Subtype</label>
+        <hint>Refers to the secondary use of the asset structure.</hint>
+        <item>
+          <label>Lattice</label>
+          <value>lattice</value>
+        </item>
+        <item>
+          <label>Tabular</label>
+          <value>tabular</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Satellite_dishes_attached">
+        <label>Satellite dishes attached</label>
+        <hint>Presence of a satellite dish in the asset.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Sirens_attached">
+        <label>Sirens attached</label>
+        <hint>Siren attached to the asset structure.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_su5mf72/Antenna_attached">
+        <label>Antenna attached</label>
+        <hint>Presence of the antenna in the asset structure.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27">
+      <label>Infrastructure - Bridge</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Collect_GPS_Location_002">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_1_of_Bridge_Asset">
+        <label>Photo 1 of Bridge Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_2_of_Bridge_Asset">
+        <label>Photo 2 of Bridge Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_3_of_Bridge_Asset">
+        <label>Photo 3 of Bridge Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Photo_4_of_Bridge_Asset">
+        <label>Photo 4 of Bridge Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Bridge_Tenure">
+        <label>Bridge Tenure</label>
+        <hint>Refers to the land status on which the bridge is located.</hint>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Public</label>
+          <value>public</value>
+        </item>
+        <item>
+          <label>State Owned Enterprise</label>
+          <value>state_owned</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Bridge_Type">
+        <label>Bridge Type</label>
+        <hint>Refers to the structural architect of the bridge.</hint>
+        <item>
+          <label>Arch</label>
+          <value>arch</value>
+        </item>
+        <item>
+          <label>Slab</label>
+          <value>slab</value>
+        </item>
+        <item>
+          <label>Cable</label>
+          <value>cable</value>
+        </item>
+        <item>
+          <label>Truss</label>
+          <value>truss</value>
+        </item>
+        <item>
+          <label>Culvert</label>
+          <value>culvert</value>
+        </item>
+        <item>
+          <label>Causeway</label>
+          <value>causeway</value>
+        </item>
+        <item>
+          <label>Ford</label>
+          <value>ford</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Length">
+        <label>Length</label>
+        <hint>The distance of the bridge in meters</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Width">
+        <label>Width</label>
+        <hint>Width of the Bridge is recorded in meters.</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Min_Height_of_Deck_to_water">
+        <label>Min.Height of Deck to water</label>
+        <hint>The minimum height taken from the water level to the deck.</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Max_Height_of_Deck_to_water">
+        <label>Max.Height of Deck to water</label>
+        <hint>The maximum height taken from the water level to the deck.</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Piles">
+        <label>Piles</label>
+        <hint>Bridge are built on Piles</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Wingwall">
+        <label>Wingwall</label>
+        <hint>Refers to a retaining wall on the bridge outer edge.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Abutment_material">
+        <label>Abutment material</label>
+        <hint>Material that makes up the retaining wall at the ends of the bridge usually in an arch shape.</hint>
+        <item>
+          <label>Steel Truss</label>
+          <value>steel_truss</value>
+        </item>
+        <item>
+          <label>Steel/Concrete</label>
+          <value>steel_concrete</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>None</label>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Super_structure_Condition">
+        <label>Super-structure Condition</label>
+        <hint>Refers to condition of the superstructure.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no cracked or damage on the structure. The asset structure has no damaged and is brand new. </label>
+          <value>_5__excellent_condition__there_is_no_cra</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the asset has no damage, no defects, no deformation, no deterioration, and no impairment.  </label>
+          <value>_4__good_condition__80__or_more_of_the_a</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: The condition of the asset at this stage can still be maintained through regular maintenance. Repair can be done to the asset.</label>
+          <value>_3__fair_condition__the_condition_of_the</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Asset has moderate damage, defects, deformation, deterioration, and or impairment. The asset can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged.</label>
+          <value>_2__poor_condition__asset_has_moderate_d</value>
+        </item>
+        <item>
+          <label>(1)Very Poor condition: Asset has major damage, defects, deformation, deterioration, and or serious impairment in condition. It is not possible to restore the asset.</label>
+          <value>_1_very_poor_condition__asset_has_major_</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Superstructure_materials">
+        <label>Superstructure materials</label>
+        <hint>Refers to the material used to construct the super-structure.</hint>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Timber</label>
+          <value>timber</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>None</label>
+          <value>none</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Deck_Material">
+        <label>Deck Material</label>
+        <hint>Refers to the material used to construct the deck.</hint>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Timber</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>timber</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_vq07d27/Deck_Condition">
+        <label>Deck Condition</label>
+        <hint>Refers to any damage to the deck structure.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no cracked or damage on the asset structure. The material of the asset structure has no defects, no deformation and no deterioration. </label>
+          <value>good</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the asset has no damage, no defects, no deformation, no deterioration, and no impairment. </label>
+          <value>partially_good</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: The condition of the asset regular maintenance. Repair can be done to the asset.</label>
+          <value>poor_condition</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: Asset has moderate damage, defects, deformation, deterioration, and or impairment. However, this condition can be repaired or restored through some economically efficient rehabilitation/refurbishment of damaged.</label>
+          <value>_2__poor_condition__asset_has_moderate_d</value>
+        </item>
+        <item>
+          <label>(1) Very Poor condition: Asset has major damage, defects, deformation, deterioration, and or serious impairment in condition.  </label>
+          <value>_1__very_poor_condition__asset_has_major</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04">
+      <label>Infrastructure - Port</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Collect_GPS_Location_003">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_1_of_Port_Asset">
+        <label>Photo 1 of Port Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_2_of_Port_Asset">
+        <label>Photo 2 of Port Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_3_of_Port_Asset">
+        <label>Photo 3 of Port Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Photo_4_of_Port_Asset">
+        <label>Photo 4 of Port Asset</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Asset_Type_003">
+        <label>Asset Type</label>
+        <hint>Refers to the different types of port structures.</hint>
+        <item>
+          <label>Wharf</label>
+          <value>wharf</value>
+        </item>
+        <item>
+          <label>Jetties</label>
+          <value>jetties</value>
+        </item>
+        <item>
+          <label>Piers</label>
+          <value>piers</value>
+        </item>
+        <item>
+          <label>Marina</label>
+          <value>marina</value>
+        </item>
+        <item>
+          <label>Military</label>
+          <value>military</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Port_Use">
+        <label>Port Use</label>
+        <hint>Refers to the usage of the port.</hint>
+        <item>
+          <label>International</label>
+          <value>international</value>
+        </item>
+        <item>
+          <label>Domestic</label>
+          <value>domestic</value>
+        </item>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Types_of_Vessel">
+        <label>Types of Vessel</label>
+        <hint>Types of vessel that birth at this port</hint>
+        <item>
+          <label>International cargo containers</label>
+          <value>international_containers</value>
+        </item>
+        <item>
+          <label>International tankers</label>
+          <value>international_tankers</value>
+        </item>
+        <item>
+          <label>International ferries</label>
+          <value>international_ferries</value>
+        </item>
+        <item>
+          <label>Domestic ferries and passenger</label>
+          <value>domestic_ferries</value>
+        </item>
+        <item>
+          <label>Domestic outboards</label>
+          <value>domestic_outboards</value>
+        </item>
+        <item>
+          <label>Private yachts</label>
+          <value>private_yachts</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Number_of_Tug_Boats">
+        <label>Number of Tug Boats</label>
+        <hint>Number of Tug boats at this port</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Condition_of_port">
+        <label>Condition of port</label>
+        <hint>Refers to the condition of the port.</hint>
+        <item>
+          <label>(5) Excellent condition: The port is in excellent condition and is open for different uses. The port is accessible for international, domestic and private usage. There is no presence of damage, defects, no deformation. </label>
+          <value>good_condition</value>
+        </item>
+        <item>
+          <label>(4) Good condition: 80% or more of the port has no damage, no defects, no deformation, no deterioration, and no impairment. </label>
+          <value>partial_good_condition</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: Port has minor condition, defects, deformation, deterioration, and impairment. </label>
+          <value>bad_condition</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: More than half of the port is in bad condition causing disruption in services. The port has major defects, deformation, deterioration and impairment. Port can be repaired through some economic refurbishment.</label>
+          <value>non_operational</value>
+        </item>
+        <item>
+          <label>(1) Very Poor condition: The port asset such as wharf, jetties, piers and marina are completely destroyed and in non-operatable. The port has major defects, deformation and deterioration. </label>
+          <value>_1__very_poor_condition__the_port_asset_</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Tenure_001">
+        <label>Tenure</label>
+        <hint>Refers to the land status on which the port is located.</hint>
+        <item>
+          <label>Government owned</label>
+          <value>government_owned</value>
+        </item>
+        <item>
+          <label>Commercial</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Community</label>
+          <value>community</value>
+        </item>
+        <item>
+          <label>State owned Enterprise</label>
+          <value>state_owned_enterprise</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Length_of_birth">
+        <label>Length of birth</label>
+        <hint>Length in meters</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Width_of_Apron">
+        <label>Width of Apron</label>
+        <hint>Width in meters</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Construction_material">
+        <label>Construction material</label>
+        <hint>Refers to the material used to construct the port structure.</hint>
+        <item>
+          <label>Steel reinforcement</label>
+          <value>steel_reinforcement</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Timber</label>
+          <value>timber</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Decking">
+        <label>Decking</label>
+        <hint>Material for decking</hint>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Steel</label>
+          <value>steel</value>
+        </item>
+        <item>
+          <label>Timber</label>
+          <value>timber</value>
+        </item>
+        <item>
+          <label>Asphalt</label>
+          <value>asphalt</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Port_Vessel_Capacity">
+        <label>Port Vessel Capacity</label>
+        <hint>Number of ships can birth at one time</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Port_storage_capacity">
+        <label>Port storage capacity</label>
+        <hint>Number of Containers storage</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Seawall_Type">
+        <label>Seawall Type</label>
+        <hint>Refers to the type of seawalls.</hint>
+        <item>
+          <label>Break water</label>
+          <value>break_water</value>
+        </item>
+        <item>
+          <label>Groyne</label>
+          <value>groyne</value>
+        </item>
+        <item>
+          <label>etc</label>
+          <value>etc</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Seawall_length">
+        <label>Seawall length</label>
+        <hint>Refers to the start and end point of the seawall. Record in meters.</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_dv0bs04/Replacement_Cost">
+        <label>Replacement Cost</label>
+        <hint>The buildings/facilities attached to port be included for costing. Have a sum of the facility cost separate to port replacement cost</hint>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28">
+      <label>Infrastructure - Airport/Airstrip</label>
+      
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Collect_GPS_Location_004">
+          <label>Collect GPS Location</label>
+          <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+        </input>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_1_of_Airport_Airstrip">
+          <label>Photo 1 of Airport/Airstrip</label>
+          <hint>Take the picture of the asset.</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_2_of_Airport_Airstrip">
+          <label>Photo 2 of Airport/Airstrip</label>
+          <hint>Take the picture of the asset.</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_3_of_Airport_Airstrip">
+          <label>Photo 3 of Airport/Airstrip</label>
+          <hint>Take the picture of the asset.</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Photo_4_of_Airport_Airstrip">
+          <label>Photo 4 of Airport/Airstrip</label>
+          <hint>Take the picture of the asset.</hint>
+        </upload>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Name_of_Airport_Airstrip">
+          <label>Name of Airport/Airstrip</label>
+          <hint>Enter the name of the airport/airstrip if the name is unavailable enter the airport/airstrip location name.</hint>
+        </input>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Use">
+          <label>Use</label>
+          <hint>Plane category able to use facility</hint>
+          <item>
+            <label>International</label>
+            <value>international</value>
+          </item>
+          <item>
+            <label>Domestic</label>
+            <value>domestic</value>
+          </item>
+          <item>
+            <label>Private</label>
+            <value>private</value>
+          </item>
+        </select>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Navigation_light_system">
+          <label>Navigation light/system</label>
+          <hint>Navigation light/system is used to guide and inform pilots about the airplane landing and take-off for safety purposes.</hint>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_qj42t92/Security_fence">
+          <label>Security fence</label>
+          <hint>Fence presence</hint>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+          <item>
+            <label>Partially fenced</label>
+            <value>partially_fenced</value>
+          </item>
+        </select>
+     
+      
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Length_of_runaway">
+          <label>Length of runaway</label>
+          <hint>The distance of the runway captured in meters.</hint>
+        </input>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_1_of_Runway">
+          <label>Photo 1 of Runway</label>
+          <hint>Photo of Runway</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_2_of_Runway">
+          <label>Photo 2 of Runway</label>
+          <hint>Photo of Runway</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_3_of_Runway">
+          <label>Photo 3 of Runway</label>
+          <hint>Photo of Runway</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Photo_4_of_Runway">
+          <label>Photo 4 of Runway</label>
+          <hint>Photo of Runway</hint>
+        </upload>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Averaged_width_of_runway">
+          <label>Averaged width of runway</label>
+          <hint>Measuring the width in meters.</hint>
+        </input>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dg5jq98/Surface">
+          <label>Surface</label>
+          <hint>Material used for the Surface</hint>
+          <item>
+            <label>Concrete</label>
+            <value>concrete</value>
+          </item>
+          <item>
+            <label>Asphalt</label>
+            <value>asphalt</value>
+          </item>
+          <item>
+            <label>Grassed</label>
+            <value>grassed</value>
+          </item>
+        </select>
+      
+      
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Length_of_taxiway">
+          <label>Length of taxiway</label>
+          <hint>Distance of the start and end point of the taxiway.</hint>
+        </input>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_1_of_Taxiway">
+          <label>Photo 1 of Taxiway</label>
+          <hint>Photo of Taxiway</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_2_of_Taxiway">
+          <label>Photo 2 of Taxiway</label>
+          <hint>Photo of Taxiway</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_3_of_Taxiway">
+          <label>Photo 3 of Taxiway</label>
+          <hint>Photo of Taxiway</hint>
+        </upload>
+        <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Photo_4_of_Taxiway">
+          <label>Photo 4 of Taxiway</label>
+          <hint>Photo of Taxiway</hint>
+        </upload>
+        <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Averaged_width_of_taxiway">
+          <label>Averaged width of taxiway</label>
+          <hint>Measured in meters.</hint>
+        </input>
+        <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/Surface_001">
+          <label>Surface</label>
+          <hint>Material used for the surface.</hint>
+          <item>
+            <label>Concrete</label>
+            <value>concrete</value>
+          </item>
+          <item>
+            <label>Asphalt</label>
+            <value>asphalt</value>
+          </item>
+          <item>
+            <label>Grassed</label>
+            <value>grassed</value>
+          </item>
+        </select>
+        
+          <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Area">
+            <label>Apron Area</label>
+            <hint>Airport apron refers to the area where aircrafts are parked, unloaded or loaded, refueled or boarded.</hint>
+          </input>
+          <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_1_of_Apron">
+            <label>Photo 1 of Apron</label>
+            <hint>Photo of Apron</hint>
+          </upload>
+          <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_2_of_Apron">
+            <label>Photo 2 of Apron</label>
+            <hint>Photo of Apron</hint>
+          </upload>
+          <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_3_of_Apron">
+            <label>Photo 3 of Apron</label>
+            <hint>Photo of Apron</hint>
+          </upload>
+          <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Photo_4_of_Apron">
+            <label>Photo 4 of Apron</label>
+            <hint>Photo of Apron</hint>
+          </upload>
+          <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_rd1la28/group_dk1cn75/group_xt9is17/Surface_002">
+            <label>Surface</label>
+            <hint>Apron_surface material</hint>
+            <item>
+              <label>Concrete</label>
+              <value>concrete</value>
+            </item>
+            <item>
+              <label>Asphalt</label>
+              <value>asphalt</value>
+            </item>
+            <item>
+              <label>Grassed</label>
+              <value>grassed</value>
+            </item>
+          </select>
+       
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60">
+      <label>Infrastructure - Roads</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Collect_GPS_Location_005">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device)</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_1_of_Road">
+        <label>Photo 1 of Road</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_2_of_Road">
+        <label>Photo 2 of Road</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_3_of_Road">
+        <label>Photo 3 of Road</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Photo_4_of_Road">
+        <label>Photo 4 of Road</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Road_class">
+        <label>Road class</label>
+        <hint>Refers to the road class.</hint>
+        <item>
+          <label>Main road</label>
+          <value>main_road</value>
+        </item>
+        <item>
+          <label>Secondary road/street</label>
+          <value>secondary_road_street</value>
+        </item>
+        <item>
+          <label>Highway</label>
+          <value>highway</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Surface_Seal">
+        <label>Surface/Seal</label>
+        <hint>Surface/seal material</hint>
+        <item>
+          <label>Gravel</label>
+          <value>gravel</value>
+        </item>
+        <item>
+          <label>Earth</label>
+          <value>earth</value>
+        </item>
+        <item>
+          <label>Seal</label>
+          <value>seal</value>
+        </item>
+        <item>
+          <label>Asphalt</label>
+          <value>asphalt</value>
+        </item>
+        <item>
+          <label>Chipped seal</label>
+          <value>chipped_seal</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Condition_002">
+        <label>Condition</label>
+        <hint>Refers to the condition of the road.</hint>
+        <item>
+          <label>(5) Excellent condition: There is no cracked or potholes. There is no damage on the road structure. The paved edges are not damaged. (&gt;80km/h) </label>
+          <value>good_60km_h</value>
+        </item>
+        <item>
+          <label>(4) Good Condition: 80% or more of the road has no damage, no defects, no deformation, no deterioration, and no impairment. (60-80km/h) </label>
+          <value>fair_20_60km_h</value>
+        </item>
+        <item>
+          <label>(3) Fair condition: Road has fair condition, defects, deformation, deterioration, and or impairment. The road can still be maintained through maintenance such as rack sealing, pothole repair, and the repair of paved edges. (40-60km/h) </label>
+          <value>poor_20km_h</value>
+        </item>
+        <item>
+          <label>(2) Poor condition: More than half of the road is in poor condition causing disruption in services. The road has major cracks, potholes and the road can barely be use. It can still be repaired through some economically efficient rehabilitation. The road may need to be replaced if it is not maintained. (20-40km/h)  </label>
+          <value>_2__poor_condition__more_than_half_of_th</value>
+        </item>
+        <item>
+          <label>(1) Very Poor condition:Road structure has major damage, defects, deformation, deterioration, and or serious impairment in condition. It is not possible to restore the road. (&lt;20km/h) </label>
+          <value>_1__very_poor_condition_road_structure_h</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Location_of_Road">
+        <label>Location of Road</label>
+        <hint>Classify as urban or rural</hint>
+        <item>
+          <label>Urban</label>
+          <value>urban</value>
+        </item>
+        <item>
+          <label>Rural</label>
+          <value>rural</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Evacuation_road">
+        <label>Evacuation road</label>
+        <hint>Refers to the evacuation road.</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Number_of_lanes">
+        <label>Number of lanes</label>
+        <hint>Record the number of lanes a road has.</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Year_Constructed">
+        <label>Year Constructed</label>
+        <hint>Record the year of the road was constructed.</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Footpath_presence">
+        <label>Footpath presence</label>
+        <hint>Footpath present on the side of the road</hint>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Length_001">
+        <label>Length</label>
+        <hint>Length of road</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Width_001">
+        <label>Width</label>
+        <hint>Width of Road</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Traffic_Volume">
+        <label>Traffic Volume</label>
+        <hint>The number of vehicles crossing a section of road per unit time at any selected period.</hint>
+        <item>
+          <label>Light (&lt;100 vehicles per day)</label>
+          <value>light__100_vehicles_per_day</value>
+        </item>
+        <item>
+          <label>Medium (100-1000 veh/day)</label>
+          <value>medium__100_1000_veh_day</value>
+        </item>
+        <item>
+          <label>High (&gt;1000 veh/day)</label>
+          <value>high__1000_veh_day</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_db2pz60/Terrain">
+        <label>Terrain</label>
+        <hint>A track of land, especially as considered with reference to its natural features.</hint>
+        <item>
+          <label>Flat</label>
+          <value>flat</value>
+        </item>
+        <item>
+          <label>Rolling(small hills)</label>
+          <value>rolling_small_hills</value>
+        </item>
+        <item>
+          <label>Steep</label>
+          <value>steep</value>
+        </item>
+        <item>
+          <label>Mountainous</label>
+          <value>mountainous</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18">
+      <label>Crops - Agriculture</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Collect_GPS_Location_006">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_1_of_Agriculture">
+        <label>Photo 1 of Agriculture</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_2_of_Agriculture">
+        <label>Photo 2 of Agriculture</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_3_of_Agriculture">
+        <label>Photo 3 of Agriculture</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Photo_4_of_Agriculture">
+        <label>Photo 4 of Agriculture</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Crop_type">
+        <label>Crop type</label>
+        <hint>Focus on dominant crops according to spacing and % of crops in it</hint>
+        <item>
+          <label>Root crop</label>
+          <value>root_crop</value>
+        </item>
+        <item>
+          <label>Fruit tree</label>
+          <value>fruit_tree</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Land_Tenure">
+        <label>Land Tenure</label>
+        <hint>Refers to the land status on which the farm is located.</hint>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Public</label>
+          <value>public</value>
+        </item>
+        <item>
+          <label>State owned Enterprised</label>
+          <value>state_owned_enterprised</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Crop_area">
+        <label>Crop area</label>
+        <hint>recorded in m2 - not include building</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Planting_method">
+        <label>Planting method</label>
+        <hint>Farm practices</hint>
+        <item>
+          <label>Mono-culture</label>
+          <value>mono_culture</value>
+        </item>
+        <item>
+          <label>Mixed</label>
+          <value>mixed</value>
+        </item>
+        <item>
+          <label>Shifting</label>
+          <value>shifting</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>unknown</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Farmers_classification">
+        <label>Farmers classification</label>
+        <hint>Refers to the farmers farming classification.</hint>
+        <item>
+          <label>Commercial</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Semi-commercial</label>
+          <value>semi_commercial</value>
+        </item>
+        <item>
+          <label>Subsistence</label>
+          <value>subsistence</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Number_of_farm_holdings">
+        <label>Number of farm holdings</label>
+        <hint>Refers to the number of farm holdings.</hint>
+        <item>
+          <label>Partial farm holding</label>
+          <value>partial_farm_holding</value>
+        </item>
+        <item>
+          <label>Full farm holding</label>
+          <value>full_farm_holding</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Fertilizer">
+        <label>Fertilizer</label>
+        <hint>Refers to the substance such as manure or a mixture of nitrates used to make soil more fertile.</hint>
+        <item>
+          <label>Organic</label>
+          <value>organic</value>
+        </item>
+        <item>
+          <label>Inorganic</label>
+          <value>inorganic</value>
+        </item>
+        <item>
+          <label>unknown</label>
+          <value>unknown</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Farming_tools">
+        <label>Farming tools</label>
+        <hint>Refers to the tools used on farms to aid work, reduce labour, and improve effectiveness.</hint>
+        <item>
+          <label>Mechanisation - tractors , grazing machinaries</label>
+          <value>mechanisation___tractors___grazing_machi</value>
+        </item>
+        <item>
+          <label>Tools (Spades, Forks,etc)</label>
+          <value>tools__spades__forks_etc</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gh1my18/Market_value">
+        <label>Market value</label>
+        <hint>Average market value of commodity in $$</hint>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34">
+      <label>Livestock</label>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Collect_GPS_Location_007">
+        <label>Collect GPS Location</label>
+        <hint>Record Geolocation (Long and Lat - Ensure Location is enabled on device).</hint>
+      </input>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_1_of_Livestock">
+        <label>Photo 1 of Livestock</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_2_of_Livestock">
+        <label>Photo 2 of Livestock</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_3_of_Livestock">
+        <label>Photo 3 of Livestock</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <upload mediatype="image/*" ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Photo_4_of_Livestock">
+        <label>Photo 4 of Livestock</label>
+        <hint>Take a picture of the asset.</hint>
+      </upload>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Land_Tenure_001">
+        <label>Land Tenure</label>
+        <hint>Refers to the land status on which the livestock is located.</hint>
+        <item>
+          <label>Non-Traditional</label>
+          <value>non_traditional</value>
+        </item>
+        <item>
+          <label>Private</label>
+          <value>private</value>
+        </item>
+        <item>
+          <label>Commercial</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Stateowned enterprise</label>
+          <value>stateowned_enterprise</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Number_of_Livestocks">
+        <label>Number of Livestocks</label>
+        <hint>Refers to the number of livestock within a barn.</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Livestock_growth_stage">
+        <label>Livestock growth stage</label>
+        <hint>Different animals have diff. growth stages and diff. values</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Livestock_feed">
+        <label>Livestock feed</label>
+        <hint>Name the type of livestock feed.</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Method_of_farming">
+        <label>Method of farming</label>
+        <hint>Refers to the method of livestock farming.</hint>
+        <item>
+          <label>Free range</label>
+          <value>free_range</value>
+        </item>
+        <item>
+          <label>Fenced</label>
+          <value>fenced</value>
+        </item>
+        <item>
+          <label>Confinement</label>
+          <value>confinement</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Farmer_classification">
+        <label>Farmer classification</label>
+        <hint>Refers to the farmer farming classification.</hint>
+        <item>
+          <label>Commercial</label>
+          <value>commercial</value>
+        </item>
+        <item>
+          <label>Semi-commercial</label>
+          <value>semi_commercial</value>
+        </item>
+        <item>
+          <label>Subsistence</label>
+          <value>subsistence</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Fence_type">
+        <label>Fence type</label>
+        <hint>Only applies to farms with fences</hint>
+        <item>
+          <label>Wooden</label>
+          <value>wooden</value>
+        </item>
+        <item>
+          <label>Steel -wires</label>
+          <value>steel__wires</value>
+        </item>
+        <item>
+          <label>Steel fence</label>
+          <value>steel_fence</value>
+        </item>
+        <item>
+          <label>Concrete</label>
+          <value>concrete</value>
+        </item>
+        <item>
+          <label>Wooden and Steel wires</label>
+          <value>wooden_and_steel_wires</value>
+        </item>
+      </select>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Fence_length">
+        <label>Fence length</label>
+        <hint>Length in meters</hint>
+      </input>
+      <input ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Farm_area_size">
+        <label>Farm area/size</label>
+        <hint>Take the farm size/area.</hint>
+      </input>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Sheds">
+        <label>Sheds</label>
+        <hint>Refers to the shelter for the livestock.</hint>
+        <item>
+          <label>Milking shed</label>
+          <value>milking_shed</value>
+        </item>
+        <item>
+          <label>Piggery</label>
+          <value>piggery</value>
+        </item>
+        <item>
+          <label>Broiler - chicken pens</label>
+          <value>broiler___chicken_pens</value>
+        </item>
+        <item>
+          <label>other sheds</label>
+          <value>other_sheds</value>
+        </item>
+      </select>
+      <select ref="/aicRLmhkeZNyNYXLjhxDhH/group_gw2bx34/Tools">
+        <label>Tools</label>
+        <hint>Refers to the tools which is used to operate any task.</hint>
+        <item>
+          <label>Mechanisation</label>
+          <value>mechanisation</value>
+        </item>
+        <item>
+          <label>Manual marchines etc.</label>
+          <value>manual_marchines_etc</value>
+        </item>
+      </select>
+    </group>
+  </body>
+</html>
