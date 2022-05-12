@@ -17,8 +17,13 @@ class Building(models.Model):
     country = models.CharField(
         blank=True, choices=country_type.choices, max_length=255)
     location_point = models.PointField(blank=True, null=True)
+    surveyor = models.CharField(
+        max_length=255, blank=True, null=True)
     #location_line = models.MultiLineStringField(blank=True, null=True)
     location_polygon = models.PolygonField(blank=True, null=True)
+    lat = models.FloatField(blank=True, null=True)
+    lon = models.FloatField(blank=True, null=True)
+    
     photo_1 = models.ImageField(
         upload_to='photos', blank=True, null=True, max_length=6544444)
     photo_2 = models.ImageField(
@@ -31,92 +36,92 @@ class Building(models.Model):
     usage_occupancy_class_type = models.TextChoices(
         'usage_occupancy_class_type', 'RESIDENTIAL COMMERCIAL INDUSTRIAL PUBLIC EDUCATIONAL INSTITUTIONAL EVACUATION_CENTER OUT_BUILDING INFRASTRUCTURE OTHER')
     usage_occupancy_class = models.CharField(
-        blank=True, choices=usage_occupancy_class_type.choices, max_length=255)
+        blank=True, choices=usage_occupancy_class_type.choices, max_length=255, null=True)
     subuse_type = models.TextChoices(
         'subuse_type', 'RESIDENTIAL COMMERCIAL INDUSTRIAL PUBLIC EDUCATIONAL INSTITUTIONAL STORAGE EVACUATION_CENTER NONE OTHER')
     subuse = models.CharField(
-        blank=True, choices=subuse_type.choices, max_length=255)
+        blank=True, choices=subuse_type.choices, max_length=255, null=True)
     foundation_type_type = models.TextChoices(
         'foundation_type_type', 'CONCRETE_SLAB WOODEN_CONCRETE_PILE STEEL_PIPE WOODEN_STEEL_POLE CONCRETE_COLUMNS LOAD_BEARING_WALL STEEL_COLUMN UNKNOWN')
     foundation_type = models.CharField(
-        blank=True, choices=foundation_type_type.choices, max_length=255)
+        blank=True, choices=foundation_type_type.choices, max_length=255, null=True)
     foundation_bracing_type = models.TextChoices(
         'foundation_bracing_type', 'TIMBER_WALLS CONCRETE_WALL MASONRY PARTIAL_BRACING OTHER_(STEEL_SHEET__TIMBER_STRUTS) NONE UNKNOWN')
     foundation_bracing = models.CharField(
-        blank=True, choices=foundation_bracing_type.choices, max_length=255)
+        blank=True, choices=foundation_bracing_type.choices, max_length=255, null=True)
     foundation_condition_type = models.TextChoices(
         'foundation_condition_type', '5_EXCELLENT_CONDITION 4_GOOD_CONDITION 3_FAIR_CONDITION 2_POOR_CONDITION 1_VERY_POOR_CONDITION')
     foundation_condition = models.CharField(
-        blank=True, choices=foundation_condition_type.choices, max_length=255)
+        blank=True, choices=foundation_condition_type.choices, max_length=255, null=True)
     min_floor_height_above_ground_type = models.TextChoices(
         'min_floor_height_above_ground_type', '<1.0M_(25CM_INCREMENT) >1.0M_(50CM_INCREMENT)')
     min_floor_height_above_ground = models.CharField(
-        blank=True, choices=min_floor_height_above_ground_type.choices, max_length=255)
+        blank=True, choices=min_floor_height_above_ground_type.choices, max_length=255, null=True)
     max_floor_height_above_ground_type = models.TextChoices(
         'max_floor_height_above_ground_type', '<1.0M_(25CM_INCREMENT) >1.0M_(50CM_INCREMENT)')
     max_floor_height_above_ground = models.CharField(
-        blank=True, choices=max_floor_height_above_ground_type.choices, max_length=255)
+        blank=True, choices=max_floor_height_above_ground_type.choices, max_length=255, null=True)
     building_structure_type = models.TextChoices(
         'building_structure_type', 'TIMBER_FRAME WOODEN_POLE CONCRETE_COLUMNS STEEL_COLUMN LOAD_BEARING_WALL TILT_UP_SLAB UNKNOWN_OTHER')
     building_structure = models.CharField(
-        blank=True, choices=building_structure_type.choices, max_length=255)
+        blank=True, choices=building_structure_type.choices, max_length=255, null=True)
     wall_material_type = models.TextChoices(
         'wall_material_type', 'CONCRETE MASONRY METAL_SHEET FIBRE_CEMENT_SHEETS UNKNOWN_SHEET FIBRE_CEMENT_BOARD TIMBER_BOARD UNKNOWN_BOARD TRADITIONAL_MATERIAL OTHER NONE_(NO_WALLS)')
     wall_material = models.CharField(
-        blank=True, choices=wall_material_type.choices, max_length=255)
+        blank=True, choices=wall_material_type.choices, max_length=255, null=True)
     wall_condition_type = models.TextChoices(
         'wall_condition_type', '5_EXCELLENT_CONDITION 4_GOOD_CONDITION 3_FAIR_CONDITION 2_POOR_CONDITION 1_VERY_POOR_CONDITION')
     wall_condition = models.CharField(
-        blank=True, choices=wall_condition_type.choices, max_length=255)
+        blank=True, choices=wall_condition_type.choices, max_length=255, null=True)
     window_type_type = models.TextChoices(
         'window_type_type', 'AWNING_WINDOWS LOUVRES BAY_RECTANGLE_WINDOWS BOW_(OUTWARD_PROJECTED)_WINDOWS OTHERS')
     window_type = models.CharField(
-        blank=True, choices=window_type_type.choices, max_length=255)
+        blank=True, choices=window_type_type.choices, max_length=255, null=True)
     window_protection_type = models.TextChoices(
         'window_protection_type', 'YES NO')
     window_protection = models.CharField(
-        blank=True, choices=window_protection_type.choices, max_length=255)
+        blank=True, choices=window_protection_type.choices, max_length=255, null=True)
     roof_shape_type = models.TextChoices(
         'roof_shape_type', 'MONO_PITCH ARCH GABLE HIP OTHER')
     roof_shape = models.CharField(
-        blank=True, choices=roof_shape_type.choices, max_length=255)
+        blank=True, choices=roof_shape_type.choices, max_length=255, null=True)
     roof_material_type = models.TextChoices(
         'roof_material_type', 'CONCRETE METAL_SHEET FIBRE_CEMENT_SHEETS UNKNOWN_SHEET METAL_TILES HEAVY_TILES WOODEN_SHAKES TRADITIONAL_MATERIALS OTHER')
     roof_material = models.CharField(
-        blank=True, choices=roof_material_type.choices, max_length=255)
+        blank=True, choices=roof_material_type.choices, max_length=255, null=True)
     roof_pitch_type = models.TextChoices(
         'roof_pitch_type', 'FLAT LOW MODERATE STEEP')
     roof_pitch = models.CharField(
-        blank=True, choices=roof_pitch_type.choices, max_length=255)
+        blank=True, choices=roof_pitch_type.choices, max_length=255, null=True)
     roof_condition_type = models.TextChoices(
         'roof_condition_type', '5_EXCELLENT_CONDITION 4_GOOD_CONDITION 3_FAIR_CONDITION 2_POOR_CONDITION 1_VERY_POOR_CONDITION')
     roof_condition = models.CharField(
-        blank=True, choices=roof_condition_type.choices, max_length=255)
+        blank=True, choices=roof_condition_type.choices, max_length=255, null=True)
     building_year_type = models.TextChoices(
         'building_year_type', 'NEW_(0_5_YRS) MEDIUM_(5_20YRS) OLD_(>20YRS) UNKNOWN')
     building_year = models.CharField(
-        blank=True, choices=building_year_type.choices, max_length=255)
+        blank=True, choices=building_year_type.choices, max_length=255, null=True)
     under_storey_level_type = models.TextChoices(
         'under_storey_level_type', 'YES NO')
     under_storey_level = models.CharField(
-        blank=True, choices=under_storey_level_type.choices, max_length=255)
+        blank=True, choices=under_storey_level_type.choices, max_length=255, null=True)
     utilities_type = models.TextChoices(
         'utilities_type', 'WATER ELECTRICITY TELECOMMUNICATION ELECTRICITY_SOLAR WATER_TANK')
     utilities = models.CharField(
-        blank=True, choices=utilities_type.choices, max_length=255)
+        blank=True, choices=utilities_type.choices, max_length=255, null=True)
     number_of_storeys = models.CharField(max_length=255, blank=True, null=True)
     population_vehicle_type = models.TextChoices(
         'population_vehicle_type', 'YES NO')
     population_vehicle = models.CharField(
-        blank=True, choices=population_vehicle_type.choices, max_length=255)
+        blank=True, choices=population_vehicle_type.choices, max_length=255, null=True)
     population_telecommunication_access_type = models.TextChoices(
         'population_telecommunication_access_type', 'CELLPHONE MOBILE VHF_RADIO INTERNET_CONNECTIVITY RADIO_(AM_FM)')
     population_telecommunication_access = models.CharField(
-        blank=True, choices=population_telecommunication_access_type.choices, max_length=255)
+        blank=True, choices=population_telecommunication_access_type.choices, max_length=255, null=True)
     population_disability_type = models.TextChoices(
         'population_disability_type', 'MENTAL_DISABILITY SIGHT_DISABILITY HEARING_DISABILITY WALKING_DISABILITY')
     population_disability = models.CharField(
-        blank=True, choices=population_disability_type.choices, max_length=255)
+        blank=True, choices=population_disability_type.choices, max_length=255, null=True)
     population_employment_status = models.CharField(
         max_length=255, blank=True, null=True)
     population_number_of_people_in_the_household = models.CharField(
