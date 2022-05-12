@@ -1,6 +1,9 @@
 from django.contrib import admin
 from django.contrib.gis.admin import GISModelAdmin
+from django.core.serializers import serialize
+from django.http import HttpResponse
 
+from .models import Building
 from .models import Building
 from .models import UtilityWater
 from .models import UtilityElectricity
@@ -27,3 +30,24 @@ admin.site.register(InfrastructureRoads, GISModelAdmin)
 admin.site.register(InfrastructureAirPort, GISModelAdmin)
 admin.site.register(CropsAgriculture, GISModelAdmin)
 admin.site.register(Livestock, GISModelAdmin)
+
+
+
+@admin.action(description='Export as GeoJSON File')
+def export_selected_objects(modeladmin, request, queryset):
+    #queryset.update(status='p')
+    print("Exporting...")
+    print(queryset)
+    out = serialize('geojson', queryset, geometry_field='point')
+    print(out)
+    response = HttpResponse(out, content_type='application/geo+json')
+    response['Content-Disposition'] = 'attachment; filename=buildings.geojson'
+    return response
+
+@admin.action(description='Publish to GeoNode')
+def publish(modeladmin, request, queryset):
+    pass
+
+admin.site.add_action(export_selected_objects)
+admin.site.add_action(publish)
+
