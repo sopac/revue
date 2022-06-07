@@ -17,6 +17,8 @@ class Building(models.Model):
     country = models.CharField(
         blank=True, choices=country_type.choices, max_length=255)
     location_point = models.PointField(blank=True, null=True)
+    building_name = models.CharField(max_length=255, blank=True, null=True)
+    building_notes = models.CharField(max_length=255, blank=True, null=True)
     surveyor = models.CharField(
         max_length=255, blank=True, null=True)
     #location_line = models.MultiLineStringField(blank=True, null=True)
@@ -110,7 +112,8 @@ class Building(models.Model):
     utilities = models.CharField(
         blank=True, choices=utilities_type.choices, max_length=255, null=True)
     number_of_storeys = models.CharField(max_length=255, blank=True, null=True)
-    population_vehicle_type = models.TextChoices(
+    
+    """ population_vehicle_type = models.TextChoices(
         'population_vehicle_type', 'YES NO')
     population_vehicle = models.CharField(
         blank=True, choices=population_vehicle_type.choices, max_length=255, null=True)
@@ -134,7 +137,7 @@ class Building(models.Model):
         max_length=255, blank=True, null=True)
     population_language = models.CharField(
         max_length=255, blank=True, null=True)
-
+ """
     class Meta:
         verbose_name = 'Building'
         verbose_name_plural = 'Buildings'
